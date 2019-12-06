@@ -6,6 +6,81 @@
   font-style: normal;
 }
 
-.PropertyPage {
+@font-face{
+  font-family:'Open Sans Bold';
+  src:url("./OpenSans-Bold.ttf");
+  src:url("./OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.propertyPage {
   font-family: 'Open Sans';
 }
+
+h1, h2, h3, h4, h5, label {
+  font-family: 'Open Sans Bold';
+}
+
+.header {
+  height: 50px;
+  padding: 10px 0 10px 0;
+}
+
+.siteLogo {
+  width: 180px;
+}
+
+.header div:nth-child(2) {
+  text-align: center;
+}
+
+.header div:nth-child(3) {
+  text-align: end;
+}
+
+img.placeHolder {
+  background: url(../images/backup-property-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.propertyPhoto {
+  width: 100%;
+}
+
+.row.title {
+  margin-top: 2em;
+}
+
+form {
+  width: 100%;
+}
+
+.col-form-label {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.columns {
+  column-count: 2;
+  column-gap: 5em;
+}
+
+.comparablePropertiesContainer {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.propertyCard {
+  padding: 1em;
+  margin: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.propertyCard img {
+  height: 100px;
+  width: 200px;
+}
+
